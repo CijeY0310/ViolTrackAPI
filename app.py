@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Load models
 model_paths = {
-    'arima_model': os.path.join(os.path.dirname(__file__), 'arima_model2.pkl'),
+    'arima_model': os.path.join(os.path.dirname(__file__), 'arima_model3.pkl'),
     'logistic_regression_model': os.path.join(os.path.dirname(__file__), 'logistic_regression_model2.pkl'),
     'program_encoder': os.path.join(os.path.dirname(__file__), 'program_encoder2.pkl')
 }
